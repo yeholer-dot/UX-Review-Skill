@@ -1,0 +1,104 @@
+{
+  "skill_name": "ux-review",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Review Linear",
+      "expected_output": "Deep structured UX review of Linear covering IA, navigation, primary/secondary capabilities, critical flows including onboarding and issue creation, UX patterns, and product strategy notes",
+      "files": [],
+      "assertions": [
+        {
+          "id": "all_sections_present",
+          "description": "All 10 sections are present: Product Overview, Information Architecture, Primary Capabilities, Secondary Capabilities, Critical User Flows, UX Patterns, Onboarding Deep Dive, Product Strategy, UX Strengths, UX Gaps",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_specific_naming",
+          "description": "Uses real Linear feature/screen names (e.g. Inbox, Cycles, Triage, My Issues, Teams, Views) rather than generic descriptions",
+          "type": "qualitative"
+        },
+        {
+          "id": "critical_flows_have_steps",
+          "description": "Critical user flows section describes at least 2 flows with sequential steps, not just summary paragraphs",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_strategy_substantive",
+          "description": "Section 8 (Product Strategy) connects UX decisions to strategic intent — explains *why* the product is designed a certain way, not just *what* it does",
+          "type": "qualitative"
+        },
+        {
+          "id": "strengths_gaps_specific",
+          "description": "UX Strengths and UX Gaps each name specific features or flows, not generic observations like 'the UI is clean' or 'onboarding could be better'",
+          "type": "qualitative"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Walk me through the UX of Notion",
+      "expected_output": "Deep structured UX review of Notion covering its flexible block-based IA, primary capabilities like pages and databases, secondary capabilities, critical flows, UX patterns, and product strategy notes on flexibility vs complexity trade-offs",
+      "files": [],
+      "assertions": [
+        {
+          "id": "all_sections_present",
+          "description": "All 10 sections are present: Product Overview, Information Architecture, Primary Capabilities, Secondary Capabilities, Critical User Flows, UX Patterns, Onboarding Deep Dive, Product Strategy, UX Strengths, UX Gaps",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_specific_naming",
+          "description": "Uses real Notion feature/screen names (e.g. Blocks, Pages, Databases, Gallery/Table/List/Board/Calendar views, Sidebar, Templates) rather than generic descriptions",
+          "type": "qualitative"
+        },
+        {
+          "id": "critical_flows_have_steps",
+          "description": "Critical user flows section describes at least 2 flows with sequential steps, not just summary paragraphs",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_strategy_substantive",
+          "description": "Section 8 (Product Strategy) connects UX decisions to strategic intent — e.g. addresses the flexibility vs. complexity trade-off and what audience Notion is optimizing for",
+          "type": "qualitative"
+        },
+        {
+          "id": "strengths_gaps_specific",
+          "description": "UX Strengths and UX Gaps each name specific features or flows, not generic observations",
+          "type": "qualitative"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Break down the UX of Loom",
+      "expected_output": "Deep structured UX review of Loom covering its simple recording-focused IA, primary and secondary capabilities, the core recording and sharing flow, viewer experience, and product strategy notes on async communication",
+      "files": [],
+      "assertions": [
+        {
+          "id": "all_sections_present",
+          "description": "All 10 sections are present: Product Overview, Information Architecture, Primary Capabilities, Secondary Capabilities, Critical User Flows, UX Patterns, Onboarding Deep Dive, Product Strategy, UX Strengths, UX Gaps",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_specific_naming",
+          "description": "Uses real Loom feature/screen names (e.g. My Library, Spaces, Loom Chrome Extension, recorder toolbar, viewer page, reactions, comments, CTAs) rather than generic descriptions",
+          "type": "qualitative"
+        },
+        {
+          "id": "critical_flows_have_steps",
+          "description": "Critical user flows section covers both the recording flow AND the viewer/recipient flow with sequential steps",
+          "type": "qualitative"
+        },
+        {
+          "id": "product_strategy_substantive",
+          "description": "Section 8 (Product Strategy) connects UX decisions to async communication strategy — e.g. why friction is minimized in recording, how the viewer experience drives sharing virality",
+          "type": "qualitative"
+        },
+        {
+          "id": "strengths_gaps_specific",
+          "description": "UX Strengths and UX Gaps each name specific features or flows, not generic observations",
+          "type": "qualitative"
+        }
+      ]
+    }
+  ]
+}
